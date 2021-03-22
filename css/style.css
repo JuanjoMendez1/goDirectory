@@ -1,0 +1,74 @@
+:root{
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #136839;
+    --secundario: #34c0eb;
+    --gris: #757575;
+    --grisClaro: #DFE9F3;
+    --azul: rgb(43, 106, 187);
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body{
+    font-size: 16px;
+    background-color: var(--oscuro);
+}
+.Titulo{
+    text-align: center;
+    font-size: 3.8rem;
+    color: var(--secundario);
+    text-transform: uppercase;
+}
+.titulo{
+    color: var(--secundario);
+}
+/*boton sobre nosotros*/
+.navegacion-principal{
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: 1rem 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+}
+
+/*sobre nosotros*/
+.header{
+    display: flex;
+    justify-content: center;
+}
+.header__logo{
+    margin: 3rem 0;
+}
+.sobre-nosotros{
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--azul);
+}
+/*grid*/
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+/*letras de las imagenes*/
+.letras{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--secundario);
+}
+/*imagenes de las categorias*/
+.categorias__imagen{
+    width: 65%;
+    height: 65%;
+}
+.contenedor{
+    text-align: center;
+}
